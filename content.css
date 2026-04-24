@@ -1,0 +1,97 @@
+.avh-highlight { outline: 4px solid #16a34a !important; box-shadow: 0 0 0 4px rgba(22,163,74,.18) !important; }
+.avh-next-highlight { outline: 4px solid #f97316 !important; box-shadow: 0 0 0 4px rgba(249,115,22,.20) !important; }
+.avh-label { position:absolute; z-index:2147483647; padding:5px 9px; border-radius:999px; font-size:13px; font-weight:750; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif; background:#16a34a; color:#fff; pointer-events:none; border:1px solid #15803d; box-shadow:0 4px 12px rgba(15,23,42,.18); }
+.avh-next-label { background:#f97316; border-color:#c2410c; }
+.avh-panel { position:fixed; right:22px; bottom:22px; z-index:2147483647; width:372px; box-sizing:border-box; padding:16px; border-radius:16px; background:#fff; color:#111827; border:1px solid #d1d5db; box-shadow:0 20px 55px rgba(15,23,42,.22); font-size:14px; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Microsoft YaHei",sans-serif; }
+.avh-panel h2 { margin:0 0 8px; font-size:20px; font-weight:800; color:#111827; }
+.avh-beta-pill { display:inline-flex; align-items:center; padding:3px 9px; margin-left:8px; border-radius:999px; font-size:12px; font-weight:800; color:#c2410c; background:#fff7ed; border:1px solid #fb923c; vertical-align:middle; }
+.avh-panel p { line-height:1.5; margin:0 0 12px; color:#374151; }
+.avh-running-row { display:flex; align-items:center; gap:9px; padding:9px 10px; margin:8px 0 12px; border-radius:10px; background:#f9fafb; border:1px solid #d1d5db; font-size:13px; font-weight:650; color:#111827; }
+.avh-dot { width:10px; height:10px; border-radius:999px; background:#9ca3af; }
+.avh-dot.running { background:#16a34a; box-shadow:0 0 0 4px rgba(22,163,74,.18); }
+.avh-panel button { margin:5px 4px; padding:8px 11px; border:1px solid #1d4ed8; border-radius:10px; cursor:pointer; background:#2563eb; color:#fff; font-weight:750; box-shadow:0 2px 5px rgba(15,23,42,.12); }
+.avh-panel button:hover { background:#1d4ed8; }
+.avh-panel button.secondary { border-color:#9ca3af; background:#fff; color:#111827; }
+.avh-panel button.secondary:hover { background:#f3f4f6; }
+.avh-panel button.danger { border-color:#b91c1c; background:#dc2626; color:#fff; }
+.avh-panel button.danger:hover { background:#b91c1c; }
+.avh-panel button.orange { border-color:#c2410c; background:#f97316; color:#fff; }
+.avh-panel button.orange:hover { background:#ea580c; }
+.avh-panel button:disabled { cursor:not-allowed; opacity:.55; background:#e5e7eb !important; border-color:#d1d5db !important; color:#6b7280 !important; box-shadow:none; }
+
+
+.avh-inline-progress {
+  margin: 10px 0 12px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #bfdbfe;
+  background: #eff6ff;
+}
+
+.avh-inline-progress-title {
+  font-size: 26px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  font-weight: 850;
+  color: #1d4ed8;
+  text-align: left;
+}
+
+.avh-inline-progress-status {
+  margin-top: 6px;
+  font-size: 14px;
+  line-height: 1.4;
+  font-weight: 750;
+  color: #1f2937;
+}
+
+.avh-inline-progress-substatus {
+  margin-top: 3px;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #4b5563;
+}
+
+.avh-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.avh-panel-title {
+  display: flex;
+  align-items: center;
+  min-width: 0;
+}
+
+.avh-min-btn {
+  width: auto !important;
+  min-width: 34px;
+  height: 30px;
+  margin: 0 !important;
+  padding: 3px 9px !important;
+  border-color: #9ca3af !important;
+  background: #ffffff !important;
+  color: #111827 !important;
+  box-shadow: none !important;
+  font-size: 18px !important;
+  line-height: 1 !important;
+}
+
+.avh-mini-chip {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 2147483647;
+  border: 1px solid #1d4ed8;
+  border-radius: 999px;
+  background: #2563eb;
+  color: #ffffff;
+  padding: 9px 13px;
+  font-size: 13px;
+  font-weight: 800;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", sans-serif;
+  box-shadow: 0 10px 28px rgba(15, 23, 42, .22);
+  cursor: pointer;
+}
