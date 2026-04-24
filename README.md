@@ -1,8 +1,8 @@
 # Video Helper
 
-> A Chrome / Edge / Atlas extension for video auto-playing.
+> A Chrome / Edge / Atlas extension for video auto-playing(note: if your video material is not helpful/waste-of-time to you, this is a good approach for U to try).
 
-Video Helper helps developers and testers check whether a web video page can be detected, controlled, and navigated by a browser extension.  
+Video Helper helps find "play" buttons of videos on webpages, automatically clicks "next" button.  
 It is designed for owned or authorized testing environments only.
 
 **Current version:** `2.3.3`
